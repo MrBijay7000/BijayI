@@ -1,0 +1,157 @@
+/* .audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f3f4f6; Light background for the player
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.audio-title {
+  font-size: 1.2rem;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.audio {
+  width: 100%; Full-width to fit container
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.audio-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.play-button,
+.pause-button {
+  background: #007bff; Primary color
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.play-button:hover,
+.pause-button:hover {
+  background: #0056b3; Darker shade on hover
+}
+
+.play-button:active,
+.pause-button:active {
+  transform: scale(0.95);   Slightly shrink button on press
+}
+
+.audio-time {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+} */
+
+/* Styles for the audio player container */
+.audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff; /* Light background for a clean look */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for a more pronounced effect */
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #e0e0e0; /* Subtle border */
+}
+
+/* Title styling */
+.audio-title {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif; /* Modern font */
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center; /* Center-align the title */
+}
+
+/* Audio player styling */
+.audio {
+  width: 100%; /* Full width to fit container */
+  border-radius: 8px;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-bottom: 15px; /* Space between audio player and controls */
+}
+
+/* Controls container styling */
+.audio-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Increase gap between buttons */
+}
+
+/* Play button styling */
+.play-button {
+  background: #4caf50; /* Green color for play */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+/* Pause button styling */
+.pause-button {
+  background: #f44336; /* Red color for pause */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+/* Hover and active states for buttons */
+.play-button:hover {
+  background: #45a049; /* Slightly darker green on hover */
+}
+
+.play-button:active {
+  transform: scale(0.95); /* Slightly shrink button on press */
+}
+
+.pause-button:hover {
+  background: #e53935; /* Slightly darker red on hover */
+}
+
+.pause-button:active {
+  transform: scale(0.95); /* Slightly shrink button on press */
+}
+
+/* Optional: Add some time display styling if you use it */
+.audio-time {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 10px;
+  text-align: center; /* Center-align the time display */
+}
