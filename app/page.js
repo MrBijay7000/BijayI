@@ -2,8 +2,6 @@ import Link from "next/link";
 
 import classes from "./page.module.css";
 import ImageSlideshow from "@/components/Images/image-slideshow";
-import AudioPlayer from "@/components/Images/Audio";
-import MusicPlayer from "@/components/Images/music";
 
 export default function Home() {
   return (
@@ -41,12 +39,10 @@ export default function Home() {
             glance, every fleeting touch, speaks a language only we understand,
             where love is not shouted but softly felt. With you, even silence is
             full, a melody that hums beneath the surface, reminding me that
-            wherever I go, I carry a piece of you with me.{" "}
+            wherever I go, I carry a piece of you with me.
             <strong>Always.</strong>
           </p>
         </section>
-        <MusicPlayer />
-        <AudioPlayer />
         {/* <section className={classes.section}>
           <h2>Why NextLevel Food?</h2>
           <p>
