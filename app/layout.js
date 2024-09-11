@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata = {
   title: "BIJAY IRRISHA",
-  description: "Delicious meals, shared by a food-loving community.",
+  description:
+    "Love is the quiet warmth in a stolen glance, the unspoken connection that makes two hearts beat as one, and the comfort of knowing you're never alone, no matter the distance..",
 };
 
 export default function RootLayout({ children }) {
