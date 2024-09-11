@@ -1,0 +1,32 @@
+/* styles/Home.module.css */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 5 columns */
+  gap: 20px; /* Space between videos */
+  padding: 20px;
+}
+
+/* Optional: You can also add responsive design for smaller screens */
+@media (max-width: 1200px) {
+  .gridContainer {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile screens */
+  }
+}
+
+@media (max-width: 400px) {
+  .gridContainer {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}

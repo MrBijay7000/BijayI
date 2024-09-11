@@ -4,9 +4,21 @@ const db = sql("meals.db");
 const dummyMeals = [
   {
     title: "Juicy Cheese Burger",
-    image: "/images/BI1.jpg",
+    image: "/images/BI0.jpg",
     summary:
       "A mouth-watering burger with a juicy beef patty and melted cheese, served in a soft bun.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI00.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI1.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
   },
   {
     title: "Spicy Curry",
@@ -14,6 +26,7 @@ const dummyMeals = [
     summary:
       "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
   },
+
   {
     title: "Homemade Dumplings",
     image: "/images/BI3.jpg",
@@ -61,6 +74,54 @@ const dummyMeals = [
     image: "/images/BI10.jpg",
     summary:
       "A light and refreshing salad with ripe tomatoes, fresh basil, and a tangy vinaigrette.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI11.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI12.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI13.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI14.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI15.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI16.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI17.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
+  },
+  {
+    title: "Spicy Curry",
+    image: "/images/BI18.jpg",
+    summary:
+      "A rich and spicy curry, infused with exotic spices and creamy coconut milk.",
   },
 ];
 

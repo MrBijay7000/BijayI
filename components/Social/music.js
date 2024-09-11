@@ -16,7 +16,7 @@ const AudioPlayer = () => {
 
   return (
     <div className={classes["audio-container"]}>
-      <h2 className={classes["audio-title"]}>Audio Player</h2>
+      <h2 className={classes["audio-title"]}>Play Me</h2>
       <audio
         controls
         ref={audioRef}

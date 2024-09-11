@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <div className={classes.cta}>
             <Link href="/community">Join the Community</Link>
-            <Link href="/meals">Explore Memories</Link>
+            <Link href="/memories">Explore Memories</Link>
           </div>
         </div>
       </header>
@@ -56,7 +56,6 @@ export default function Home() {
             with other food lovers.
           </p>
         </section> */}
-        <AudioPlayer />
       </main>
     </>
   );

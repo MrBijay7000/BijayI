@@ -24,7 +24,10 @@ export default function MainHeader() {
         <nav className={classes.nav}>
           <ul>
             <li>
-              <NavLink href="/meals">Browse Memories</NavLink>
+              <NavLink href="/memories">Browse Memories</NavLink>
+            </li>
+            <li>
+              <NavLink href="/videomemo">Browse Video Memories</NavLink>
             </li>
 
             <li>
